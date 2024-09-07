@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            color: #d32f2f;
+            margin-top: 20px;
+        }
+        .avengers-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .avenger {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 200px;
+            padding: 15px;
+            transition: transform 0.2s;
+        }
+        .avenger:hover {
+            transform: scale(1.05);
+        }
+        .avenger img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .avenger h2 {
+            color: #d32f2f;
+            margin: 10px 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Avengers</h1>
+
+    <div class="avengers-container">
+        <!-- Iron Man -->
+        <div class="avenger">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/e0/Iron_Man_bleeding_edge.jpg" alt="Iron Man">
+            <h2>Iron Man</h2>
+            <p>Tony Stark</p>
+        </div>
+
+        <!-- Captain America -->
+        <div class="avenger">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/91/CaptainAmerica109.jpg" alt="Captain America">
+            <h2>Captain America</h2>
+            <p>Steve Rogers</p>
+        </div>
+
+        <!-- Thor -->
+        <div class="avenger">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/4d/Thor_by_Olivier_Coipel.jpg" alt="Thor">
+            <h2>Thor</h2>
+            <p>God of Thunder</p>
+        </div>
+
+        <!-- Hulk -->
+        <div class="avenger">
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/59/Hulk_%28comics_character%29.png" alt="Hulk">
+            <h2>Hulk</h2>
+            <p>Bruce Banner</p>
+        </div>
+
+        <!-- Black Widow -->
+        <div class="avenger">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1f/Black_Widow_avengers_endgame.png" alt="Black Widow">
+            <h2>Black Widow</h2>
+            <p>Natasha Romanoff</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
